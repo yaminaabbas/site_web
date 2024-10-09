@@ -328,11 +328,18 @@ ul
     padding: 20px;
 }
 
-h3.hello, h3.my-profession
+h3.hello
 {
     font-size: 25px;
     margin: 15px 0;
 
+}
+
+h3.my-profession
+{
+    margin-top: 5%;
+    font-size: 25px;
+    margin: 15px 0;
 }
 
 .typing
@@ -343,6 +350,7 @@ h3.hello, h3.my-profession
 
 .home-info p
 {
+    margin-top: 4%;
     margin-bottom: 50px;
     font-size: 20px;
     line-height: 2;
@@ -459,12 +467,13 @@ h3.hello, h3.my-profession
 
 .about .about-content .personal-info .buttons
 {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .about .about-content .personal-info .buttons .btn
 {
-    margin-top: 10px;
+    
+    margin-bottom: 10px;
 }
 
 .about .about-content .education,
@@ -610,6 +619,7 @@ h3.hello, h3.my-profession
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .contact-sub-title
@@ -617,7 +627,8 @@ h3.hello, h3.my-profession
     color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    margin-top: 20px;
 }
 
 .contact .contact-info-item
@@ -631,6 +642,8 @@ h3.hello, h3.my-profession
 .contact .contact-info-item .icon
 {
     display: inline-block;
+    font-size: 25px;
+    color: red;
 }
 .contact .contact-info-item .icon .fa
 {
@@ -653,7 +666,10 @@ h3.hello, h3.my-profession
     color: var(--text-black-700);
     font-weight: 400;
 } 
-
+.contact .contact-info-item p a
+{
+    color: var(--text-black-700);
+}
 .contact .contact-form
 {
     flex: 0 0 100%;
