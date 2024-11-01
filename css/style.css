@@ -801,4 +801,15 @@ h3.my-profession
     }
 
 }
+@media (max-width: 576px) {
+    .section .container {
+        padding-top: 40px; /* Réduit le padding pour laisser plus de place au texte */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about .about-content .personal-info .info-item p span {
+        font-size: 14px; /* Réduit légèrement la taille de police pour éviter les débordements */
+    }
+}
 
