@@ -133,6 +133,11 @@ ul
     margin-top: 8px;
 
 }
+.section {
+    min-height: calc(100vh - 70px); /* Ajustez 70px selon l'espace occupé par les éléments fixes */
+    padding-bottom: 50px; /* Crée un espace en bas pour le défilement */
+}
+
 .row
 {
     display: flex;
@@ -802,14 +807,12 @@ h3.my-profession
 
 }
 @media (max-width: 576px) {
-    .section .container {
-        padding-top: 40px; /* Réduit le padding pour laisser plus de place au texte */
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .about .about-content .personal-info .info-item p span {
-        font-size: 14px; /* Réduit légèrement la taille de police pour éviter les débordements */
+    .section {
+        min-height: calc(100vh - 50px); /* Réduit encore un peu pour les écrans de petite taille */
+        padding-bottom: 40px; /* Ajuste le padding pour permettre un défilement sans blocage */
     }
 }
+
+
+
 
